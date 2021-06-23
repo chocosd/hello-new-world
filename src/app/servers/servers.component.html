@@ -11,8 +11,8 @@ class="form-control"
 <button
   [disabled]="!allowNewServer"
   class="btn btn-primary"
-  (click)="onCreateServer()">
-Add Server</button>
+  (click)="onCreateServer()">Add Server</button>
+  <!-- <p [innerText]="allowNewServer"></p> -->
 <p> {{ serverCreationStatus }}</p>
 <app-server></app-server>
 <app-server></app-server>

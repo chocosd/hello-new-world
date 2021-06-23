@@ -1,5 +1,7 @@
+@import "/src/stylings/global-styles.scss";
+
 p {
-  color:#333;
+  color:#fff;
   background:greenyellow;
-  padding: 0.5em 0em 0.5em 1em;
+  @extend %alerts;
 }
